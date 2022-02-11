@@ -40,7 +40,7 @@ logo = """
                                                                                                                                                             \033[1;93m7MMF'  `7MMF'      db      `7MN.   `7MF'`7MN.   `7MF'     db      `7MN.   `7MF'
 \033[1;93mMM      MM       ;MM:       MMN.    M    MMN.    M      ;MM:       MMN.    M  
 \033[1;93mMM      MM      ,V^MM.      M YMb   M    M YMb   M     ,V^MM.      M YMb   M  
- \033[1;93MMmmmmmmMM     ,M  `MM      M  `MN. M    M  `MN. M    ,M  `MM      M  `MN. M  
+\033[1;93mMMmmmmmmMM     ,M  `MM      M  `MN. M    M  `MN. M    ,M  `MM      M  `MN. M  
 \033[1;93mMM      MM     AbmmmqMA     M   `MM.M    M   `MM.M    AbmmmqMA     M   `MM.M  
 \033[1;93mMM      MM    A'     VML    M     YMM    M     YMM   A'     VML    M     YMM  
 \033[1;93mJMML. .JMML..AMA.  .AMMA. .JML.    YM  .JML.    YM .AMA.   .AMMA..JML.    YM  
