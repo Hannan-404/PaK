@@ -90,7 +90,7 @@ def lisensi():
 ####login#########
 def login():
 	os.system('clear')
-	print """
+        logo = """
 	kakakak
 	
 	print "\033[1;93m[1] \033[1;95m START CLONING..."
