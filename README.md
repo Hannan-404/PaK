@@ -12,6 +12,6 @@ git clone https://github.com/Hannan-404/PaK
 
 cd PaK
 
-python2 Love.py
+python2 PNC.py
 
 💖💖💖🙂Enjoy💖💖💖
